@@ -1,2 +1,2 @@
 # odin-recipes
-Building a basic recipe site.
+Build a basic recipe site.
