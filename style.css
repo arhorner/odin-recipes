@@ -1,0 +1,27 @@
+.title {
+    border-bottom: 1px solid rgb(191, 228, 244);
+    width: 500px;
+}
+
+.subtitle {
+    width: 500px;
+    border-bottom: 1px solid rgb(191, 228, 244);
+}
+
+.ingredients-list {
+    background-color: rgb(191, 228, 244);
+    width: 500px;
+}
+
+.steps-list {
+    background-color: rgb(191, 228, 244);
+    width: 500px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.steps-list li {
+    margin-bottom: 8px;
+}
