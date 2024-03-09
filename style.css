@@ -1,16 +1,68 @@
+body {
+    display: block;
+    margin: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 16px auto;
+}
+
+.choices {
+    display: block;
+}
+
+.choices .card {
+    height: 100px;
+    font-size: 20px;
+    background-color: rgb(191, 228, 244);
+    padding-top: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin-left: 16px;
+}
+
+
+.card {
+    margin: 16px auto;
+}
+
 .title {
     border-bottom: 1px solid rgb(191, 228, 244);
     width: 500px;
 }
 
+h1 {
+    margin-left: 16px;
+}
+
+h3 {
+    margin-left: 16px;
+}
+
+h4 {
+    margin-left: 16px;
+    margin-top: 0;
+    padding-top: 16px;
+}
+
+p {
+    margin-left: 16px;
+}
+
 .subtitle {
     width: 500px;
-    border-bottom: 1px solid rgb(191, 228, 244);
 }
 
 .ingredients-list {
     background-color: rgb(191, 228, 244);
     width: 500px;
+    padding: 16px auto;
 }
 
 .steps-list {
@@ -24,4 +76,13 @@ li {
 
 .steps-list li {
     margin-bottom: 8px;
+}
+
+ul {
+    padding-bottom: 16px;
+}
+
+ol {
+    padding-bottom: 16px;
+    padding-right: 16px;
 }
